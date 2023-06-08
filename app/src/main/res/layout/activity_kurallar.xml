@@ -37,10 +37,14 @@
     <TextView
         android:layout_width="360dp"
         android:layout_height="340dp"
-        android:text="-Toplam 10 kategori ve her birinde 5 soru bulunmaktadır.
-        \n\n-Bu 5 sorunun içlerinde 2 tane resimli\nsoru vardır.
-        \n\n-Her kategori soruları toplam\n90 saniyedir süre bitince yarışma biter.
-        \n\n-Her soru 20 puan 5 soru var maksimum 100 puan alınabilir.
+        android:text="-Toplam 10 kategori ve her birinde 5 soru\n
+         bulunmaktadır.
+        \n\n-Bu 5 sorunun içlerinde 2 tane resimli\n
+        soru vardır.
+        \n\n-Her kategori soruları toplam\n
+        90 saniyedir süre bitince yarışma biter.
+        \n\n-Her soru 20 puan 5 soru var maksimum\n
+        100 puan alınabilir.
         \n\n-Boş sorular yanlış olarak değerlendirilir."
         android:textColor="#000000"
         android:textSize="18sp"
