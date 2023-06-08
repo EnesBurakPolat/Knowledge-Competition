@@ -104,12 +104,12 @@ public class SoruActivity extends AppCompatActivity {//varsayılan
         if (kategori.equals("Müzik")) {
 
             sorular = new String[]{"Soru 1: Türk halk müziği türünde önemli eserlere" +
-                    "imza atmış olan sanatçı hangisidir?",
+                    " imza atmış olan sanatçı hangisidir?",
                     "Soru 2: Hangi enstrüman genellikle bir orkestranın kalbi olarak kabul edilir?",
                     "Soru 3: Türk halk müziği enstrümanlarından biri olan \"saz\" hangi" +
-                            "tür bir çalgıdır?",
+                            " tür bir çalgıdır?",
                     "Soru 4: Yukarıdaki müzik aletinin adı nedir ?", "Soru 5: Yukarıdaki gitarda" +
-                    "kaç tane tel vardır ?"};//sorular
+                    " kaç tane tel vardır ?"};//sorular
 
             cevaplar = new String[sorular.length][4];
 
@@ -151,11 +151,11 @@ public class SoruActivity extends AppCompatActivity {//varsayılan
         else if (kategori.equals("Sanat")) {
 
             sorular = new String[]{"Soru 1: Leonardo da Vinci'nin ünlü tablosu \"Mona Lisa\" hangi"+
-                    "müzede sergilenmektedir?",
+                    " müzede sergilenmektedir?",
                     "Soru 2: \"Pietà\" ve \"David\" gibi heykelleriyle tanınan ünlü İtalyan" +
-                            "sanatçı kimdir?",
+                            " sanatçı kimdir?",
                     "Soru 3: Hangi ressam," +
-                    "\"Gece Yıldızlı\" ve \"Ay'a Yolculuk\" gibi ünlü eserlere imza atmıştır?",
+                            "\"Gece Yıldızlı\" ve \"Ay'a Yolculuk\" gibi ünlü eserlere imza atmıştır?",
                     "Soru 4: Yukarıdaki resim hangi ünlü ressamın eseridir?",
                     "Soru 5: Yukarıdaki resimde hangi sanat akımına ait bir tablo görülmektedir?"};
 
@@ -197,14 +197,14 @@ public class SoruActivity extends AppCompatActivity {//varsayılan
         else if (kategori.equals("Bilim")) {
 
             sorular = new String[]{"Soru 1: Yukarıdaki resim daha çok hangi bilim dalı ile" +
-                    "ilgilidir?",
+                    " ilgilidir?",
                     "Soru 2: Yukarıdaki resimde hangi bilim insanı görülmektedir?",
                     "Soru 3: Hücrelerin enerji üretimiyle ilgilenen bilim dalı hangisidir?",
                     "Soru 4: Elektrik yüklerinin hareketi ve davranışını inceleyen bilim dalı" +
-                            "hangisidir?",
+                            " hangisidir?",
                     "Soru 5: İnsanların tarih öncesine ait kültürel kalıntıları ve eserleri" +
                             "inceleyen bilim" +
-                            "dalı hangisidir?"};
+                            " dalı hangisidir?"};
 
             cevaplar = new String[sorular.length][4];
 
@@ -243,12 +243,12 @@ public class SoruActivity extends AppCompatActivity {//varsayılan
         else if (kategori.equals("Matematik")) {
 
             sorular = new String[]{"Soru 1: Bir dairedeki merkez açının ölçüsü 60 derecedir." +
-                    "Dairenin tam çevresi kaç derecedir?",
+                    " Dairenin tam çevresi kaç derecedir?",
                     "Soru 2: Bir üçgenin iç açıları toplamı kaç derecedir?",
                     "Soru 3: Yukarıdaki resimde hangi geometrik şekil görülmektedir?",
                     "Soru 4: Yukarıdaki resimde kaç tane paralel çizgi vardır?",
                     "Soru 5: Bir dik üçgenin iki dik kenarının uzunlukları sırasıyla" +
-                            "3 cm ve 4 cm ise, hipotenüsün uzunluğu kaç cm'dir?"};
+                            " 3 cm ve 4 cm ise, hipotenüsün uzunluğu kaç cm'dir?"};
 
             cevaplar = new String[sorular.length][4];
 
@@ -288,11 +288,11 @@ public class SoruActivity extends AppCompatActivity {//varsayılan
         else if (kategori.equals("Spor")) {
 
             sorular = new String[]{"Soru 1: Yukarıdaki resimde hangi spor dalının sahası" +
-                    "görülmektedir?", "Soru 2: Hangi spor dalında, maçlar iki takım arasında" +
-                    "11'er oyuncu ile oynanır?", "Soru 3: Olimpiyat Oyunları kaç yılda bir" +
-                    "düzenlenir?", "Soru 4: Yukarıdaki resimde hangi spor dalının ekipmanı" +
-                    "görülmektedir?", "Soru 5: Hangi spor dalında, maçlar setler halinde" +
-                    "oynanır ve raket kullanılır?"};
+                    " görülmektedir?", "Soru 2: Hangi spor dalında, maçlar iki takım arasında" +
+                    " 11'er oyuncu ile oynanır?", "Soru 3: Olimpiyat Oyunları kaç yılda bir" +
+                    " düzenlenir?", "Soru 4: Yukarıdaki resimde hangi spor dalının ekipmanı" +
+                    " görülmektedir?", "Soru 5: Hangi spor dalında, maçlar setler halinde" +
+                    " oynanır ve raket kullanılır?"};
 
             cevaplar = new String[sorular.length][4];
 
@@ -331,12 +331,12 @@ public class SoruActivity extends AppCompatActivity {//varsayılan
         else if (kategori.equals("Video Oyunları")) {
 
             sorular = new String[]{"Soru 1: Hangi video oyun konsolu," +
-                    "\"PlayStation\" markasıyla bilinir?", "Soru 2: Hangi video" +
-                    "oyun serisi, \"The Legend of Zelda\" adlı oyunuyla ünlüdür?",
+                    " \"PlayStation\" markasıyla bilinir?", "Soru 2: Hangi video" +
+                    " oyun serisi, \"The Legend of Zelda\" adlı oyunuyla ünlüdür?",
                     "Soru 3: Hangi video oyunu, \"Minecraft\" adlı popüler yapım" +
-                            "oyunudur?", "Soru 4: Yukarıdaki resimde hangi video" +
-                    "oyun karakteri görülmektedir?", "Soru 5: Yukarıdaki resimde" +
-                    "hangi video oyunun logosu görülmektedir?"};
+                            " oyunudur?", "Soru 4: Yukarıdaki resimde hangi video" +
+                    " oyun karakteri görülmektedir?", "Soru 5: Yukarıdaki resimde" +
+                    " hangi video oyunun logosu görülmektedir?"};
 
             cevaplar = new String[sorular.length][4];
 
@@ -375,11 +375,11 @@ public class SoruActivity extends AppCompatActivity {//varsayılan
         else if (kategori.equals("Biyoloji")) {
 
             sorular = new String[]{"Soru 1: Hangi organel hücrenin \"enerji santrali\"" +
-                    "olarak bilinir?", "Soru 2: Yukarıdaki resimde hangi hücre yapısı" +
-                    "görülmektedir?", "Soru 3: DNA molekülü hangi molekülün yapı taşıdır?",
+                    " olarak bilinir?", "Soru 2: Yukarıdaki resimde hangi hücre yapısı" +
+                    " görülmektedir?", "Soru 3: DNA molekülü hangi molekülün yapı taşıdır?",
                     "Soru 4: Yukarıdaki resimde hangi organ sistemine ait bir" +
-                            "organ görülmektedir?", "Soru 5: Fotosentez olayı hangi" +
-                    "hücre yapısı tarafından gerçekleştirilir?"};
+                            " organ görülmektedir?", "Soru 5: Fotosentez olayı hangi" +
+                    " hücre yapısı tarafından gerçekleştirilir?"};
 
             cevaplar = new String[sorular.length][4];
 
@@ -419,9 +419,9 @@ public class SoruActivity extends AppCompatActivity {//varsayılan
 
             sorular = new String[]{"Soru 1: Dünya'nın en geniş kıtası hangisidir?",
                     "Soru 2: Bir ülkenin kara sınırlarının tamamına yakını hangi" +
-                            "ülkeyle komşu ise bu ülkenin coğrafi şekli aşağıdaki" +
-                            "terimle tanımlanır?", "Soru 3: Aşağıdaki ülkelerden" +
-                    "hangisi Pasifik Okyanusu'nda bulunan bir adadır?",
+                            " ülkeyle komşu ise bu ülkenin coğrafi şekli aşağıdaki" +
+                            " terimle tanımlanır?", "Soru 3: Aşağıdaki ülkelerden" +
+                    " hangisi Pasifik Okyanusu'nda bulunan bir adadır?",
                     "Soru 4: Yukarıdaki resimde hangi coğrafi olgu görülmektedir?",
                     "Soru 5: Yukarıdaki resimde hangi coğrafi olgu görülmektedir?"};
 
@@ -462,13 +462,13 @@ public class SoruActivity extends AppCompatActivity {//varsayılan
         else if (kategori.equals("Tarih")) {
 
             sorular = new String[]{"Soru 1: Hangi tarih aralığı \"Orta Çağ\"" +
-                    "dönemini kapsar?", "Soru 2: Yukarıdaki resimde hangi tarihi" +
-                    "olayın sonucunu gösteren bir sembol görülmektedir?",
+                    " dönemini kapsar?", "Soru 2: Yukarıdaki resimde hangi tarihi" +
+                    " olayın sonucunu gösteren bir sembol görülmektedir?",
                     "Soru 3: Yukarıdaki resimde hangi tarihî kişi veya olayın" +
-                            "bir görseli görülmektedir?", "Soru 4: Hangi tarihî" +
-                    "olay, \"1914-1918\" yılları arasında gerçekleşmiştir?",
+                            " bir görseli görülmektedir?", "Soru 4: Hangi tarihî" +
+                    " olay, \"1914-1918\" yılları arasında gerçekleşmiştir?",
                     "Soru 5 :Hangi tarihî dönemde \"İskenderiye Kütüphanesi\"" +
-                            "büyük bir yangın sonucu yok olmuştur?"};
+                            " büyük bir yangın sonucu yok olmuştur?"};
 
             cevaplar = new String[sorular.length][4];
 
